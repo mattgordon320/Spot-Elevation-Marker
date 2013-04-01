@@ -6,13 +6,13 @@ NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR ANY PA
 #--------------------------------------------------------------------
 License		: Author License Statement
 Author		: Matthew Michael Gordon
-Organization: Graphic Bridge
-Name		: Spot_Elevation_Marker
-Version		: 0.1 ALPHA
+Organization: Organization Name
+Name		: Script Name
+Version		: 0.0.1 ALPHA
 SU Version	: SketchUp 8
 Date		: 2013-03-27
 Description	:
-	This plugin's current purpose is to allow the user to click on any given object in SketchUp (point, line, face) and the script will automatically create a text object that references the z-height of the object at the selected point. 
+	This plugin's current purpose is to allow the user to click on any given object in SketchUp (point, line, face) and the script will automatically create a Spot Elevation Marker that references the z-height of the object at the selected point, and will update based on changes made to the terrain (likely a manual refresh to prevent lagging/crashes).
 Usage		: 
 	This section is reserved for the breakdown of instructions on how the plugin is used.
 Change Log	:
@@ -24,9 +24,10 @@ require "extensions.rb"
 
 #Load plugin as extension so that it may be disabled via Preferences > Extension Panel
 
-GB_Spot_Elev_Loader = Sketchup.extension.new "Spot_Elevation_Marker", "Graphic_Bridge_Tools/Spot_Elev_Marker.rb"
+GB_Spot_Elev_Loader = Sketchup.extension.new "Spot_Elevation_Marker", "Graphic_Bridge_Tools/GB_Spot_Elev.rb"
 Spot_Elevation_Marker.copyright = "Copyright 2013 Graphic Bridge/Matthew Michael Gordon"
 Spot_Elevation_Marker.creator = "Matthew Michael Gordon"
+Spot_Elevation_Marker.contributors = "Enter Names Here"
 Spot_Elevation_Marker.version = "0.0.1"
 Spot_Elevation_Marker.description = "Description Here"
 Sketchup.register_extension GB_Spot_Elev_Loader, true
