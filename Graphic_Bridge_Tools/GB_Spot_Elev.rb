@@ -22,7 +22,7 @@ Menu Items  :
 								Allows User to Toggle Visibility of Datum Planes.
 		Spot Elevs- 	Category that organizes all different options for Spot Elevation Markers.
 							* Create Spot Elevation marker: 
-								Creates a Spot Elevation marker [Text] item that references the z-height of an object/location with respect to the previously set Zero Datum. [Else references Model Origin]
+								Creates a Spot Elevation marker DC  that references the z-height of an object/location with respect to the previously set Zero Datum. [Else references Model Origin]
 							* Create Grid Based marker Set:
 								Creates multiple markers in a User-defined grid (w/ Options) on terrain.
 							* Show/Hide Elev marker Symbols:
@@ -42,6 +42,11 @@ Menu Items  :
 								Allows User to control the naming conventions of groups and components created by the plugin. This is done to allow the plugin to work without changing or impeding office/personal workflows.	
 Usage 		: 
 	This section is reserved for the breakdown of instructions on how the plugin is used.
+
+Active Task List:
+		Step 1: Write method to create (via either scripted creation or import) a Dynamic Component (with a Z-Height reader attribute attached) wherever the user clicks, and ensure that each instance is unique.
+		Step 2: Create method to create multiple Spot Elevation Markers (perhaps in a grid), and drop them onto a site.
+
 Change Log	:
 	0.0.1 - (2013/01/01) Template Started - Not Ready for Testing
 	1.0.0 - (2013/xx/xx) Initial Release
