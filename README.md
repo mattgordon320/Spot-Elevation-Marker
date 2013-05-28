@@ -19,8 +19,11 @@ This script is intended to allow the user to easily create Spot Elevation marker
 
 ####Application Goals
 
-*Ruby script to create geometry for the spot elevation marker itself.
+* Ruby script to create geometry for the spot elevation marker itself.
+
 	1. Creation of a single style marker
+
 	2. Creation of multiple style markers
+	
 	3. Upgrade of multiple styles to parametric markers.
 	
