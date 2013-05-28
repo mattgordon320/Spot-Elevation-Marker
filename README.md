@@ -11,11 +11,11 @@ Table of Contents
 
 ####Script Intentions
 
-This script is intended to allow the user to easily create Spot Elevation markers in SketchUp, either in single form or in multiples (grid-based or otherwise).
+	This script is intended to allow the user to easily create Spot Elevation markers in SketchUp, either in single form or in multiples (grid-based or otherwise).
 
 ####Development Team Members
 
-*Matt Gordon - matt.gordon320@gmail.com
+	*Matt Gordon (Primary Developer) - matt.gordon320@gmail.com
 
 ####Application Goals
 
