@@ -11,19 +11,15 @@ Table of Contents
 
 ####Script Intentions
 
-This script is intended to allow the user to easily create Spot Elevation markers in SketchUp, either in single form or in multiples (grid-based or otherwise).
+This plugin's current purpose is to allow the user to click on any given object in SketchUp (point, line, face) and the script will automatically create a Spot Elevation Marker that references the z-height of the object at the selected point, and will update based on changes made to the terrain (likely a manual refresh to prevent lagging/crashes).
 
 ####Development Team Members
 
 *Matt Gordon (Primary Developer) - matt.gordon320@gmail.com
 
-####Application Goals
+####Outline of Tool Catergories & Purposes
 
-* Ruby script to create geometry for the spot elevation marker itself.
-
-	1. Creation of a single style marker
-
-	2. Creation of multiple style markers
-	
-	3. Upgrade of multiple styles to parametric markers.
-	
+* Menu Items:
+	- Datums (Data)
+		* Set Zero Datum
+			
