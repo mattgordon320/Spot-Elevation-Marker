@@ -21,9 +21,9 @@ Matt Gordon (Primary Developer) - matt.gordon320@gmail.com
 
 #####Datums (Data)
 
-*Set Zero Datum - Allows users to define where in the model the Zero Datum is set. All spot elevations are measured in reference to this plane.
+>*Set Zero Datum - Allows users to define where in the model the Zero Datum is set. All spot elevations are measured in reference to this plane.
 
-*Show/Hide Datums - Allows user to toggle visibility of Datum Planes.
+>*Show/Hide Datums - Allows user to toggle visibility of Datum Planes.
 
 #####Spot Elevation Markers
 
