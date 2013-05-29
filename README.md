@@ -17,9 +17,7 @@ This plugin's current purpose is to allow the user to click on any given object 
 
 Matt Gordon (Primary Developer) - matt.gordon320@gmail.com
 
-####Outline of Tool Catergories & Purposes
-
-#####Menu Items:
+####Outline of Intended Menu Items:    
 	+Datums (Data)
 		>Set Zero Datum - Allows users to define where in the model the Zero Datum is set. All spot elevations are measured in reference to this plane.
 		>Show/Hide Datums - Allows user to toggle visibility of Datum Planes.
