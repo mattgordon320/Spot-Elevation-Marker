@@ -19,7 +19,23 @@ This plugin's current purpose is to allow the user to click on any given object 
 
 ####Outline of Tool Catergories & Purposes
 
-* Menu Items:
+#####Menu Items:
 	- Datums (Data)
-		* Set Zero Datum
-			
+		*Set Zero Datum - Allows users to define where in the model the Zero Datum is set. All spot elevations are measured in reference to this plane.
+		*Show/Hide Datums - Allows user to toggle visibility of Datum Planes.
+	- Spot Elevation Markers
+		*Create Spot Elevation Marker - Creates a single Spot Elevation Marker dynamic component that references the Z-height of an object/location with respect to the previously set Zero Datum.
+		*Create Grid-based Marker Set - Creates multiple markers in a user-defined grid (w/ options) on a model surface (terrain, etc.)
+		*Show/Hide Elevation Marker Symbols - Toggles visibility of elevation marker symbols.
+		*Show/Hide Elevation Marker Text - Toggles visibility of elevation marker text callouts.
+		*Set Marker Min/Max Parameters (In the far distance of development) - Allows users to set minimum/maximum z-height values for specific elevation markers, giving visual feedback to the user about when part of a given terrain is too high/too low by changing color of the marker.
+	- Preferences
+		*Layer Naming Options - Allows users control over the naming conventions of layers created by this plugin. This feature is meant to allow users to customize the plugin around their workflow or standards (if already established).
+		*Layer Lock Option - Allows User to decide if layers created by script are locked after creation by the plugin.
+		*Spot Elevation Tag Options - Allows users to customize spot elevation markers, via web dialog perhaps?
+		*Component Naming Options - Allows User to control the naming conventions of groups and components created by the plugin. This is done to allow the plugin to work without changing or impeding office/personal workflows.
+
+#####Plugin Usage
+	This section reserved for the breakdown of instructions on how the plugin is used, as well as downloadable documentation.
+
+	
