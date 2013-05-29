@@ -18,13 +18,13 @@ This plugin's current purpose is to allow the user to click on any given object 
 Matt Gordon (Primary Developer) - matt.gordon320@gmail.com
 
 ####Outline of Intended Menu Items: 
-   
-Datums (Data)
-	*Set Zero Datum - Allows users to define where in the model the Zero Datum is set. All spot elevations are measured in reference to this plane.
-	*Show/Hide Datums - Allows user to toggle visibility of Datum Planes.
+
+#####Datums (Data)
+	*   Set Zero Datum - Allows users to define where in the model the Zero Datum is set. All spot elevations are measured in reference to this plane.
+	*   Show/Hide Datums - Allows user to toggle visibility of Datum Planes.
 	+Spot Elevation Markers
-		*Create Spot Elevation Marker - Creates a single Spot Elevation Marker dynamic component that references the Z-height of an object/location with respect to the previously set Zero Datum.
-		*Create Grid-based Marker Set - Creates multiple markers in a user-defined grid (w/ options) on a model surface (terrain, etc.)
+		*   Create Spot Elevation Marker - Creates a single Spot Elevation Marker dynamic component that references the Z-height of an object/location with respect to the previously set Zero Datum.
+		*   Create Grid-based Marker Set - Creates multiple markers in a user-defined grid (w/ options) on a model surface (terrain, etc.)
 		*Show/Hide Elevation Marker Symbols - Toggles visibility of elevation marker symbols.
 		*Show/Hide Elevation Marker Text - Toggles visibility of elevation marker text callouts.
 		*Set Marker Min/Max Parameters (In the far distance of development) - Allows users to set minimum/maximum z-height values for specific elevation markers, giving visual feedback to the user about when part of a given terrain is too high/too low by changing color of the marker.
